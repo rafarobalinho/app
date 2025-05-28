@@ -1,0 +1,65 @@
+{
+    "6a64802c-52f8-4637-9932-580bf178aaa7": {
+        "id": "2665a3d3-5152-4cfd-8a02-cfcf39b33257",
+        "name": "WeWeb Auth",
+        "designId": "38dd6aaa-dd8d-4fd6-b208-ea826ae19e52",
+        "pluginId": "6a64802c-52f8-4637-9932-580bf178aaa7",
+        "publicData": {
+            "clientId": "116nfcnbk3veiolmt2cks3d1c4",
+            "userPoolId": "us-east-1_a4XzhrRDf",
+            "invitationEmail": {
+                "EmailMessage": "Hi,<br/><br/>You have been invited to join the <b>Ecommerce Template</b> application.<br/>Please login with your email <b>{username}</b> using the password below:<br/><b>{####}</b><br/><br/>Best.",
+                "EmailSubject": "Invitation to join Ecommerce Template application"
+            },
+            "verificationEmail": {
+                "EmailMessage": "Hi,<br/><br/>Here is your verification code <b>{####}</b> to change your password on the <b>Ecommerce Template</b> application.<br/><br/>Best.<br/>",
+                "EmailSubject": "Your verification code for Ecommerce Template application",
+                "DefaultEmailOption": "CONFIRM_WITH_CODE"
+            },
+            "afterForbiddenPageId": "d64058b3-2db9-4f09-ab8e-85b74317162e",
+            "afterNotSignInPageId": "d64058b3-2db9-4f09-ab8e-85b74317162e"
+        }
+    },
+    "cd33cf33-e29f-4e8c-ac26-b997fe507ce7": {
+        "id": "57dfbada-7b74-4a23-9186-8da92eea959e",
+        "name": "Xano",
+        "designId": "38dd6aaa-dd8d-4fd6-b208-ea826ae19e52",
+        "pluginId": "cd33cf33-e29f-4e8c-ac26-b997fe507ce7",
+        "publicData": {
+            "domain": "x8ki-letl-twmt.n7.xano.io"
+        }
+    },
+    "cabb43dd-6161-4140-8ebf-03b6fb045a0b": {
+        "id": "ff2c35c8-1c4d-4dae-b20f-92692839eb87",
+        "name": "Google",
+        "designId": "38dd6aaa-dd8d-4fd6-b208-ea826ae19e52",
+        "pluginId": "cabb43dd-6161-4140-8ebf-03b6fb045a0b",
+        "publicData": {}
+    },
+    "f5856798-485d-47be-b433-d43d771c64e1": {
+        "id": "37735a65-6fec-4c40-baa2-d306858d35a5",
+        "name": "Xano Auth",
+        "designId": "38dd6aaa-dd8d-4fd6-b208-ea826ae19e52",
+        "pluginId": "f5856798-485d-47be-b433-d43d771c64e1",
+        "publicData": {
+            "roles": [
+                {
+                    "id": "2f657a19-7fc3-4764-a7cd-80519ecd3083",
+                    "name": "Sou Cliente",
+                    "createdAt": "2025-04-29T21:54:07.510Z"
+                },
+                {
+                    "id": "099787c5-2d7c-48a2-b477-867b2c40afa7",
+                    "name": "Sou Lojista",
+                    "createdAt": "2025-04-29T21:54:16.518Z"
+                }
+            ],
+            "domain": "x8ki-letl-twmt.n7.xano.io",
+            "roleType": "string",
+            "getMeEndpoint": "https://x8ki-letl-twmt.n7.xano.io/api:D750dH0I/auth/me",
+            "loginEndpoint": "https://x8ki-letl-twmt.n7.xano.io/api:D750dH0I/auth/login",
+            "signupEndpoint": "https://x8ki-letl-twmt.n7.xano.io/api:D750dH0I/auth/signup",
+            "socialProviders": {}
+        }
+    }
+}
